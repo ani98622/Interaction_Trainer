@@ -48,6 +48,7 @@ streamlit
 PyPDF2
 watchdog
 summarizer
+db-sqlite3
 whisper
 FlashRank
 audio-recorder-streamlit
@@ -58,6 +59,7 @@ sentence-transformers
 noisereduce
 protobuf==3.19.0
 markdownify
+sqlite3
 
 # aiofiles==23.2.1
 # aiohttp==3.9.5
