@@ -23,6 +23,8 @@
 # autogen
 # summarizer
 
+ffmpeg-python
+streamlit
 tqdm
 pydub
 pandas
@@ -44,7 +46,6 @@ pyautogen
 openai
 setuptools-rust
 plotly
-streamlit
 PyPDF2
 watchdog
 summarizer
