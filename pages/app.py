@@ -39,7 +39,7 @@ def login():
                 st.success('Login successful')
                 st.session_state.logged_in = True
                 st.session_state.user_id = user_id
-                st.rerun()
+                # st.experimental_rerun()
             else:
                 st.error('Invalid credentials')
                 st.session_state.logged_in = False
@@ -50,7 +50,8 @@ def login():
             st.session_state.user_id = None
             st.session_state.uploaded_audio = False
             st.session_state.recorded_audio = False
-            st.rerun()
+            # st.rerun()
+            st.experimental_rerun()
     return st.session_state.user_id if st.session_state.logged_in else None
 
 def clear_directory(directory):
@@ -117,7 +118,8 @@ if ques_selected:
         st.session_state.recorded_audio = False
         st.session_state.ques_selected = ques_selected
         st.session_state.i += 1
-        st.rerun()
+        # st.rerun()
+        st.experimental_rerun()
 
     res = None
     st.header("Upload or Record Audio to start Training.")
