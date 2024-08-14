@@ -3,11 +3,11 @@ from database_sql import rag_answer, relevent_answer, insert_into_data_table, ch
 from audio_recorder_streamlit import audio_recorder
 from audio_text import return_text,reduce_noise_in_audio
 from main import output
-from dotenv import load_dotenv
-load_dotenv()
+# from dotenv import load_dotenv
+# load_dotenv()
 
-os.environ['AUTOGEN_USE_DOCKER'] = "False"
-os.environ['TOKENIZERS_PARALLELISM']= "True"
+# os.environ['AUTOGEN_USE_DOCKER'] = "False"
+# os.environ['TOKENIZERS_PARALLELISM']= "True"
 
 if 'project' not in st.session_state:
     st.session_state.project = None

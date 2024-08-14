@@ -6,8 +6,12 @@ from datetime import datetime
 a=0
 def output(PROBLEM,doc,Relv):
     config_list = [
-        {"api_type": "groq", "model": "llama3-70b-8192", "api_key": os.getenv("GROQ_API_KEY")}
+        {"api_type": "groq", "model": "llama3-70b-8192", "api_key": "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"}
     ]
+
+    # config_list = [
+    #     {"api_type": "groq", "model": "llama3-70b-8192", "api_key": os.getenv("GROQ_API_KEY")}
+    # ]
     
     def extract_club_up_content(response):
         for item in response:
