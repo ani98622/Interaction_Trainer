@@ -56,6 +56,7 @@ langchain
 pypdf
 sentence-transformers
 noisereduce
+protobuf==3.19.0
 markdownify
 
 # aiofiles==23.2.1
