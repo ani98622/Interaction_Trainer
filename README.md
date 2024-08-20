@@ -27,7 +27,7 @@ Make sure you have the following installed:
 
 - Python 3.8+
 - pip (Python package manager)
-- MySQL or any other SQL database for managing user data
+- MySQL database for managing user data
 - [Streamlit](https://streamlit.io/) for the frontend interface
 
 ### Clone the Repository
@@ -36,14 +36,14 @@ Make sure you have the following installed:
 git clone https://github.com/your-username/client-interaction-trainer.git
 cd client-interaction-trainer
 ```
-or 
+or download the code, extract zip file and run the following commands.
 
 ```bash
 pip install -r requirements.txt
 ```
 
 ```bash 
-streamlit run app.py
+streamlit run home.py
 ```
 
 
