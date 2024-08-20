@@ -36,9 +36,14 @@ Make sure you have the following installed:
 git clone https://github.com/your-username/client-interaction-trainer.git
 cd client-interaction-trainer
 ```
+or 
 
 ```bash
 pip install -r requirements.txt
+```
+
+```bash 
 streamlit run app.py
+```
 
 
