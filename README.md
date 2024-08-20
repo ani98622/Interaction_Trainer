@@ -35,6 +35,7 @@ Make sure you have the following installed:
 ```bash
 git clone https://github.com/your-username/client-interaction-trainer.git
 cd client-interaction-trainer
+```
 
 ```bash
 pip install -r requirements.txt
